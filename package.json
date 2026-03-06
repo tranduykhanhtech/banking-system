@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server banking system",
+  "main": "src\\index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src\\index.js",
+    "dev": "nodemon src\\index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tranduykhanhtech/banking-system.git"
+  },
+  "keywords": [
+    "banking",
+    "system"
+  ],
+  "author": "tranduykhanh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tranduykhanhtech/banking-system/issues"
+  },
+  "homepage": "https://github.com/tranduykhanhtech/banking-system#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.14"
+  }
+}
